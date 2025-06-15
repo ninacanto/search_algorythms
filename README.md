@@ -2,8 +2,6 @@
 
 Comparação de desempenho entre **Busca Sequencial** e **Busca Binária** implementada em Python.
 
-> Nota: Este projeto também possui uma implementação em Rust disponível na pasta `rust_version/`.
-
 ## Especificações do Estudo
 
 ### Algoritmos Testados
@@ -46,31 +44,6 @@ O programa gera um arquivo `benchmark_results.csv` com todas as métricas coleta
 - Número de posições visitadas
 - Speedup e eficiência comparativa
 - Valores teóricos vs observados
-
-## Análise Gráfica
-
-Os dados coletados foram analisados e visualizados em gráficos interativos:
-
-**[Gráficos e Análise Completa](https://colab.research.google.com/drive/1X3MSX1ADwnVWsTnTZruGSonPsenqh43v?usp=sharing)**
-
-### Principais Conclusões
-
-- A busca binária mantém performance quase constante independente do tamanho
-- A busca sequencial cresce linearmente com o tamanho da entrada
-- Speedup varia de **111x** (1K elementos) até **6.250x** (100K elementos)
-- O comportamento prático confirma a análise assintótica teórica
-
-## Estrutura do Projeto
-
-```
-├── main.py         # Script principal com todo o código integrado
-└── python_version/ # Versão modularizada (alternativa)
-    ├── __init__.py
-    ├── main.py
-    ├── types.py
-    ├── search.py
-    └── csv_export.py
-```
 
 ## Dependências
 
