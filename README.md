@@ -1,4 +1,4 @@
-# 🐍 Search Algorithms Benchmark
+# 🐍 Search Algorithms
 
 Comparação de desempenho entre **Busca Sequencial** e **Busca Binária** implementada em Python.
 
